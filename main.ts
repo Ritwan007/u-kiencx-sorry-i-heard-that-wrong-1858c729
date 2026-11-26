@@ -4,6 +4,8 @@
 // Revised: fail loudly instead of writing an entry that would fail the gate.
 // Revised again: name the output path once, so the gate check and the write
 // cannot drift apart if the path ever changes.
+// Chosen line is 109 characters: "turn off the lights" misheard as
+// "turn on the fight", with the neighbours already notified.
 import { mkdirSync, writeFileSync } from "node:fs";
 
 const LINE =
